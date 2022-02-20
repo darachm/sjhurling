@@ -1,4 +1,1 @@
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^sjhurling.com [NC,OR]
-RewriteCond %{HTTP_HOST} ^www.sjhurling.com [NC]
-RewriteRule ^(.*)$ http://siliconvalleyhurling.org/$1 [L,R=301,NC]
+Redirect 301 / http://siliconvalleyhurling.org/
